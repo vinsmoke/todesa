@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+	<section id="todoapp">
+		<header id="header">
+			<h1>todos</h1>
+			<input type="text" id="new-todo" placeholder="What needs to be done?">
+		</header>
+		<section id="main">
+			<input type="checkbox" id="toggle-all">
+			<ul id="todo-list">
+				<!-- <li data-id="">
+					<div class="view">
+						<input type="checkbox" class="toggle">
+						<label >00</label>
+						<buttom class="destroy"></buttom>
+					</div>
+					<input  class="edit" value="00">
+				</li> -->
+			</ul>
+		</section>
+		<footer id="footer">
+			<span id="todo-count"><strong>1</strong>item left</span>
+			<ul id="filters">
+				<li><a href="#" >All</a></li>
+				<li><a href="#" >Active</a></li>
+				<li><a href="#" >Completed</a></li>
+			</ul>
+			<button id="clear-completed">Clear completed</button>
+		</footer>
+	</section>
+	<script src="./js/jquery-1.12.0.js"></script>
+	<script src="./js/index.js"></script>
+</body>
+</html>
